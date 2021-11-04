@@ -1,0 +1,29 @@
+<%- |
+  String $favourite,
+  String $servertype,
+| -%>
+<HTML>
+<HEAD>
+<TITLE>HTTP dogs, with dog pics hosted on <%= $fqdn %></TITLE>
+</HEAD>
+<BODY>
+<h1>Welcome to dogs pretty cool website - now in a template, hosted on <%= $servertype %></h1>
+<h2>UPDATE!!!! More dog pictures</h2>
+<h2>Dogsite module has been updated. this will be pushed to prod before cat site</h2>
+<br/><p>This website is hosted on IIS, pretty basic, however its been configured and all setup via Puppet. No manual intervention required, repeatable and automated :) </p>
+<p>My Favourte dog is: <%= $favourite %></p>
+<br/>
+<h3>Poodle</h3>
+<img src="https://a-z-animals.com/media/Poodle-Canis-familiaris-white.jpg" alt="poodle">
+<h3>Spoodle</h3>
+<img src="https://www.selectadogbreed.com/media/1077/spoodle_adult.jpg" alt="spoodle">
+<h3>Cat 101</h3>
+<img src="https://http.cat/101" alt="cat 101">
+<h3>Cat 401</h3>
+<img src="https://http.cat/401" alt="cat 401">
+<h3>Cat 405</h3>
+<img src="https://http.cat/405" alt="cat 405">
+<h3>Cat 500</h3>
+<img src="https://http.cat/500" alt="cat 500">
+</BODY>
+</HTML>
