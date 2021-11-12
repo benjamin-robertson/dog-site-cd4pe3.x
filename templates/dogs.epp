@@ -9,7 +9,7 @@
 <BODY>
 <h1>Welcome to dogs pretty cool website - now in a template, hosted on <%= $servertype %></h1>
 <h2>UPDATE!!!! More dog pictures</h2>
-<h2>Dogsite module has been updated. this will be pushed to prod before cat 12site</h2>
+<h2>Dogsite module has been updated. this will be pushed to prod before cat site</h2>
 <br/><p>This website is hosted on IIS, pretty basic, however its been configured and all setup via Puppet. No manual intervention required, repeatable and automated :) </p>
 <p>My Favourte dog is: <%= $favourite %></p>
 <br/>
