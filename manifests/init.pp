@@ -5,7 +5,7 @@
 # @example
 #   include dog_site
 class dog_site (
-  String $favourite = 'Poodles1',
+  String $favourite = 'Poodles',
 ) {
 
   file {'c:\inetpub\dogsite':
